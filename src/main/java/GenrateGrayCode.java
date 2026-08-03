@@ -45,3 +45,82 @@ public class GenrateGrayCode {
         return ans;
     }
 }
+/*
+explained:
+
+Dry Run (n = 2)
+graycode(2)
+
+calls
+
+graycode(1)
+
+returns
+
+0
+1
+
+Now,
+
+Prefix 0
+
+00
+01
+
+Reverse previous
+
+1
+0
+
+Prefix 1
+
+11
+10
+
+Result
+
+00
+01
+11
+10
+Dry Run (n = 3)
+
+graycode(2) returns
+
+00
+01
+11
+10
+
+Prefix 0
+
+000
+001
+011
+010
+
+Reverse
+
+10
+11
+01
+00
+
+Prefix 1
+
+110
+111
+101
+100
+
+Final
+
+000
+001
+011
+010
+110
+111
+101
+100
+* */
